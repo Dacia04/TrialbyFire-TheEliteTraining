@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5323261712580112020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3719163388285002542}
+  - component: {fileID: 4991948135978205843}
+  m_Layer: 0
+  m_Name: ObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3719163388285002542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5323261712580112020}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.3170679, y: -1.7317172, z: -0.039187852}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4991948135978205843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5323261712580112020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7ba673574cb1b4ca58f1421b16827d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefab:
+  - <GameObjectPrefab>k__BackingField: {fileID: 4711013144086223925, guid: dc33cf3bbddab5945a54a9f6bbe0f67c, type: 3}
+    <NameGameObjectPrefab>k__BackingField: Bullet1
+    <AmountToPool>k__BackingField: 10
+  - <GameObjectPrefab>k__BackingField: {fileID: 8745951794007571444, guid: 9404dcb7025cb49469d70a5e2e3691d6, type: 3}
+    <NameGameObjectPrefab>k__BackingField: StoneBullet
+    <AmountToPool>k__BackingField: 40
+  - <GameObjectPrefab>k__BackingField: {fileID: 6371164566454144684, guid: 72b492c37a620d44db2d0b4ffc443c61, type: 3}
+    <NameGameObjectPrefab>k__BackingField: Thorn
+    <AmountToPool>k__BackingField: 75
+  - <GameObjectPrefab>k__BackingField: {fileID: 3301728253725449138, guid: 174aad1d566707940b68d38bf27236ea, type: 3}
+    <NameGameObjectPrefab>k__BackingField: Laser
+    <AmountToPool>k__BackingField: 20
+  - <GameObjectPrefab>k__BackingField: {fileID: 8122585110215980341, guid: 7b37c56f803c8784cba172ee6238352d, type: 3}
+    <NameGameObjectPrefab>k__BackingField: GhostEffect
+    <AmountToPool>k__BackingField: 10

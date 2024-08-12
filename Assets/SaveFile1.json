@@ -1,0 +1,13 @@
+{
+    "MaxHealth": 7,
+    "Health": 5,
+    "MaxShield": 1,
+    "Shield": 0,
+    "Position": {
+        "x": 425.0,
+        "y": -512.3621215820313
+    },
+    "ColliderMap": 5,
+    "StatusEnemy": "111111101111111111111111",
+    "StatusBuff": "11111111111111111111111111111111111"
+}
